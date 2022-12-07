@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  background-image: url("https://cdn.pixabay.com/photo/2022/12/01/17/52/sea-7629517_960_720.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  padding: 20px 0px;
+  opacity: 0.7;
+}
+form {
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  width: fit-content;
+  margin: 10px auto;
+  padding: 30px;
+}
+/* *label inline old için width çalışmaz */
+label {
+  display: inline-block;
+  width: 90px;
+  margin-right: 10px;
+}
+.gender-div,
+.lang-div {
+  display: inline-block;
+}
+.gender-div label,
+.lang-div label {
+  width: auto;
+}
+.inputs {
+  border-radius: 5px;
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.input-check {
+  /* margin-left: 10px; */
+  margin-bottom: 20px;
+}
+.btn-container {
+  text-align: center;
+}
+.btn-container input {
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: hsl(299, 100%, 70%);
+}
+.btn-container input:hover {
+  color: aliceblue;
+  font-weight: 800;
+  cursor: pointer;
+  background-color: hsl(299, 100%, 40%);
+}
+/* .textarea-div * {
+  vertical-align: middle;
+} */
+textarea {
+  vertical-align: middle;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,800;1,300&display=swap"
+    rel="stylesheet">
+  <title>Register Page</title>
+</head>
+
+<body>
+  <h1>REGİSTER PAGE</h1>
+  <form action="">
+    <div>
+      <label for="first">First Name: </label>
+      <input type="text" id="first" class="inputs" placeholder="Enter Your First Name..." required>
+    </div>
+    <div>
+      <label for="first">Last Name: </label>
+      <input type="text" id="last" class="inputs" placeholder="Enter Your Last Name..." required>
+    </div>
+    <div>
+      <label for="email">Email: </label>
+      <input type="email" id="email" class="inputs" placeholder="Enter Your Email..." required>
+    </div>
+    <div>
+      <label for="password">Password: </label>
+      <input type="password" id="password" class="inputs" placeholder="Your Last Password..." required>
+    </div>
+    <div>
+      <label for="date">Day of Birth: </label>
+      <input type="date" id="date" class="inputs" value="2022-01-01" min="2020-01-01" placeholder="Your Birthday..."
+        required>
+    </div>
+    <div>
+      <label for="tel">Phone: </label>
+      <input type="tel" id="tel" class="inputs" required>
+    </div>
+    <div class="textarea-div">
+      <label for="address">Address:</label>
+      <textarea name="address" id="address" class="inputs" cols="20" rows="5"></textarea>
+    </div>
+    <div>
+      <label for="country">Country:</label>
+      <select name="country" id="country" name="country" class="inputs">
+        <option value="">Select Country</option>
+        <option value="Turkey">Turkey</option>
+        <option value="Germany">Germany</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+      </select>
+    </div>
+    <div>
+      <label for="gender">Gender:</label>
+      <div class="gender-div">
+        <input type="radio" name="gender" class="input-check" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" class="input-check" id="female" checked>
+        <label for="female">Female</label>
+      </div>
+
+    </div>
+    <div>
+      <label for="languanes">Languanes:</label>
+      <div class="lang-div">
+        <input type="checkbox" name="lang" class="input-check" id="ing">
+        <label for="ing">English</label>
+        <input type="checkbox" name="lang" class="input-check" id="fra">
+        <label for="fra">Français</label>
+        <input type="checkbox" name="lang" class="input-check" id="tr">
+        <label for="tr">Türkçe</label>
+      </div>
+
+    </div>
+    <div class="btn-container">
+      <input type="submit" value="Save" class="btn">
+      <input type="reset" value="Clear" class="btn">
+    </div>
+  </form>
+</body>
+
+</html>
